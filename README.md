@@ -61,3 +61,5 @@ In Claude Code, type `/nse-screener` — if the skill loads, you're set.
 
 ## Disclaimer
 Users should review NSE's Terms of Service. This tool is intended for personal analysis and research.
+
+With love from https://alphaquantixanalytics.com/

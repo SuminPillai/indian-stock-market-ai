@@ -1,65 +1,145 @@
-# NSE Stock Analysis Claude Skills
+<div align="center">
 
-A suite of 10 Claude Code skills for analyzing stocks in the Indian stock market. Each skill is invocable via `/skill-name` in Claude Code, providing AI-assisted interactive analysis tailored to India-specific market structures, regulations, and data sources.
+![Sumin Pillai Banner](./assets/banner.png)
 
-## Overview
+# Hey, I'm Sumin Pillai 👋
 
-This repository contains modular skills with a shared core that allow you to analyze Indian stocks using public APIs and libraries (yfinance, NSE/BSE websites, AMFI, SEBI). The skills output rich terminal analysis including markdown tables, heatmaps, sparklines, and offer export options.
+### Quant Finance × Full-Stack Engineering
 
-## Features
+**Founder @ [AlphaQuantix Analytics](https://alphaquantixanalytics.com)** · Ex-FactSet · Ex-JPMorgan · NSE Research · Toulouse Business School
 
-- **Self-contained Data Sources:** Uses public APIs and libraries, avoiding dependencies on private infrastructure.
-- **Rich Output:** Colored terminal tables, markdown tables, ANSI color-coded heatmaps, and inline ASCII sparklines.
-- **Export Options:** Export analysis results to CSV, JSON, or standalone Python code.
-- **Configurable Settings:** Configurable caching, tax rules, lot sizes, and SEBI categories.
+<p>
+  <a href="https://www.linkedin.com/in/sumin-pillai-a18661177/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://alphaquantixanalytics.com"><img src="https://img.shields.io/badge/AlphaQuantix-000000?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website" /></a>
+  <a href="mailto:suminpillai@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://orcid.org/0009-0001-5302-5899"><img src="https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" alt="ORCID" /></a>
+</p>
 
-## Skills Included
+<img src="https://komarev.com/ghpvc/?username=SuminPillai&style=flat-square&color=58a6ff" alt="Profile views" />
 
-1. **`/nse-screener`** - Multi-factor stock screening with India-specific filters.
-2. **`/fii-dii-tracker`** - Decode institutional money flow (FII/DII).
-3. **`/nse-options-chain`** - Options chain analysis tuned to NSE's unique structure.
-4. **`/sebi-deal-scanner`** - Surface insider & bulk deal activity.
-5. **`/promoter-analyzer`** - Track promoter behavior, holding, and pledge patterns.
-6. **`/fo-strategy`** - Build and evaluate derivative strategies using India's specific F&O structure.
-7. **`/mf-flow-analyzer`** - Track mutual fund flows and SIP trends.
-8. **`/sector-rotation`** - Map Indian sectoral cycles to India-specific macro triggers.
-9. **`/tax-calculator`** - Indian tax-aware P&L calculator with STCG, LTCG, and STT considerations.
-10. **`/smallcap-discovery`** - Uncover quality small/micro caps in India's under-researched segments.
+</div>
 
-## Installation & Setup
+---
 
-### Step 1: Clone the repository
-```bash
-git clone https://github.com/SuminPillai/NSE-STOCK-ANALYSIS-CLAUDE-SKILLS.git
-cd NSE-STOCK-ANALYSIS-CLAUDE-SKILLS
-```
+## 🧠 About Me
 
-*(Note: Ensure you have your `core/`, `tests/`, `config/`, and required Python scripts set up in your local copy.)*
+Quantitative finance professional turned full-stack engineer, based in **Bengaluru, India** 🇮🇳
 
-### Step 2: Register skills with Claude Code
-Add the skill paths to your project's `.claude/settings.json` (or global `~/.claude/settings.json`):
+I specialize in **complex data modeling, private equity valuation, derivatives pricing**, and building the software that makes it all accessible. I've handled decades of Tier 1/Tier 2 market data, automated institutional-grade data pipelines, and backtested quantitative trading strategies — then built the apps that put these tools in people's hands.
 
-```json
-{
-  "skills": {
-    "nse-screener": "./skills/nse-screener/nse-screener.md",
-    "fii-dii-tracker": "./skills/fii-dii-tracker/fii-dii-tracker.md",
-    "nse-options-chain": "./skills/nse-options-chain/nse-options-chain.md",
-    "sebi-deal-scanner": "./skills/sebi-deal-scanner/sebi-deal-scanner.md",
-    "promoter-analyzer": "./skills/promoter-analyzer/promoter-analyzer.md",
-    "fo-strategy": "./skills/fo-strategy/fo-strategy.md",
-    "mf-flow-analyzer": "./skills/mf-flow-analyzer/mf-flow-analyzer.md",
-    "sector-rotation": "./skills/sector-rotation/sector-rotation.md",
-    "tax-calculator": "./skills/tax-calculator/tax-calculator.md",
-    "smallcap-discovery": "./skills/smallcap-discovery/smallcap-discovery.md"
-  }
-}
-```
+Now I run **[AlphaQuantix Analytics](https://alphaquantixanalytics.com)** — a digital production house & growth agency that combines engineering with business strategy.
 
-### Step 3: Verify
-In Claude Code, type `/nse-screener` — if the skill loads, you're set.
+---
 
-## Disclaimer
-Users should review NSE's Terms of Service. This tool is intended for personal analysis and research.
+## 💼 Experience
 
-With love from https://alphaquantixanalytics.com/
+| Role | Company | Period |
+|------|---------|--------|
+| **Founder & Digital Growth Strategist** | [AlphaQuantix Analytics](https://alphaquantixanalytics.com) | Mar 2024 – Present |
+| **Senior Research Analyst** | FactSet _(clients: JPMorgan, Goldman Sachs, BlackRock)_ | Mar 2023 – Mar 2024 |
+| **Research Analyst Intern** | National Stock Exchange (NSE) | Jun 2022 – Aug 2022 |
+| **Equity Research Intern** | JPMorgan Chase | Aug 2021 – Oct 2021 |
+
+**Education:** MBA Finance (Alliance University) · Exchange Semester (Toulouse Business School, France)
+
+---
+
+## 🔬 Published Research
+
+- 📄 **Analysis of Put Option Mispricing** — Structural overpricing of Put options during high-volatility market conditions using a decade of historical index options data
+- 📄 **Fama-French Factor Models in Emerging Markets** — Adapted 3-Factor & 5-Factor models on the Indian equity market (NSE), evaluating alpha generation across 20 equities (2011–2021)
+
+---
+
+## ⚡ Tech Stack
+
+<div align="center">
+
+#### Languages & Analytics
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+#### Frameworks & Libraries
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+
+#### Cloud & Infrastructure
+![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![Cloud Run](https://img.shields.io/badge/Cloud_Run-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+
+#### Finance & Data
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=power-bi&logoColor=black)
+![Excel](https://img.shields.io/badge/Advanced_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
+
+</div>
+
+---
+
+## 🏗️ What I Build
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <h3>📊 FinTech & Quant Tools</h3>
+      <p>Stock data pipelines, Excel & Google Sheets add-ins, backtesting engines, option pricing models — bringing institutional-grade analytics to retail investors.</p>
+    </td>
+    <td align="center" width="50%">
+      <h3>🌐 Production Web Apps</h3>
+      <p>Full-stack Next.js/React applications on GCP. Enterprise-grade platforms with invoicing, CRM, and client dashboards.</p>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <h3>📈 Financial Modeling</h3>
+      <p>PE Valuation, LBO, VaR, M&A Analysis, Fama-French models, time series forecasting. Built for institutional and startup clients.</p>
+    </td>
+    <td align="center" width="50%">
+      <h3>🎬 Digital Production</h3>
+      <p>Growth systems combining cinema-grade production with automated sales pipelines. 2X digital sales and 3X lead generation for clients.</p>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 📌 Featured Projects
+
+| Project | Description | Tech |
+|---------|-------------|------|
+| **[NSE Stock Data Pipeline](https://github.com/SuminPillai/nse-stock-data-pipeline)** | Automated ETL pipeline for NSE historical price data | `Python` `GCP` |
+| **[StockData Excel Add-in](https://github.com/SuminPillai/stockdata-excel-addin)** | Excel task pane for real-time stock data access | `Node.js` `Cloud Run` `REST API` |
+| **[StockData Google Sheets Add-on](https://github.com/SuminPillai/stockdata-google-sheets-addon)** | Google Sheets sidebar for financial analysis | `Apps Script` `Cloud Run` `Python` |
+| **[StockData WebApp](https://github.com/SuminPillai/stockdata-webapp)** | Web interface for stock data visualization | `HTML` `CSS` `JavaScript` |
+
+---
+
+## 📈 GitHub Stats
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=SuminPillai&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=3fb950&text_color=c9d1d9" alt="GitHub Stats" height="180" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SuminPillai&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" alt="Top Languages" height="180" />
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=SuminPillai&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=30363d&ring=58a6ff&fire=3fb950&currStreakLabel=58a6ff" alt="GitHub Streak" />
+
+</div>
+
+---
+
+<div align="center">
+
+### 💼 Let's Work Together
+
+I'm always open to interesting projects and collaborations.
+
+**[🌐 alphaquantixanalytics.com](https://alphaquantixanalytics.com)** · **[💼 LinkedIn](https://www.linkedin.com/in/sumin-pillai-a18661177/)** · **[📧 suminpillai@gmail.com](mailto:suminpillai@gmail.com)** · **[📱 +91 8861526690](https://wa.me/918861526690)**
+
+</div>

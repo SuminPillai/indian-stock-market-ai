@@ -1,0 +1,20 @@
+last_updated: "2026-03-26"
+effective_from: "2017-10-06"
+description: "SEBI mutual fund categorization norms and MWPL thresholds"
+
+market_cap_classification:
+  large_cap:
+    rank_start: 1
+    rank_end: 100
+    description: "Top 100 companies by market capitalization"
+  mid_cap:
+    rank_start: 101
+    rank_end: 250
+    description: "101st to 250th by market capitalization"
+  small_cap:
+    rank_start: 251
+    description: "251st and below by market capitalization"
+
+fo_ban:
+  mwpl_threshold: 0.95
+  ban_description: "F&O ban triggered when OI exceeds 95% of MWPL"

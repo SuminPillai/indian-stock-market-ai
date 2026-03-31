@@ -1,0 +1,31 @@
+last_updated: "2026-03-26"
+effective_from: "2026-01-01"
+description: "F&O lot sizes — update quarterly from NSE circulars"
+
+index_lots:
+  NIFTY: 75
+  BANKNIFTY: 30
+  FINNIFTY: 65
+  MIDCPNIFTY: 120
+
+stock_lots:
+  RELIANCE: 250
+  TCS: 150
+  HDFCBANK: 550
+  INFY: 300
+  ICICIBANK: 700
+  SBIN: 750
+  BHARTIARTL: 950
+  ITC: 1600
+  KOTAKBANK: 400
+  LT: 150
+  AXISBANK: 600
+  HINDUNILVR: 300
+  BAJFINANCE: 125
+  MARUTI: 100
+  TATAMOTORS: 575
+  SUNPHARMA: 350
+  TATASTEEL: 500
+  WIPRO: 1500
+  ASIANPAINT: 200
+  HCLTECH: 350

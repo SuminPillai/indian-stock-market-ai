@@ -1,0 +1,17 @@
+last_updated: "2026-03-26"
+effective_from: "2024-10-01"
+description: "Securities Transaction Tax rates — post Budget 2024"
+
+equity_delivery:
+  buy: 0.001
+  sell: 0.001
+
+equity_intraday:
+  sell: 0.00025
+
+futures:
+  sell: 0.0125
+
+options:
+  sell: 0.01
+  exercise: 0.00125

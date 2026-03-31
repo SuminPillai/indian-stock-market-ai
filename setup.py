@@ -6,7 +6,7 @@ setup(
     description="Claude Code skills for Indian stock market analysis",
     author="Sumin Pillai",
     author_email="suminpillai@gmail.com",
-    url="https://github.com/SuminPillai/NSE-STOCK-ANALYSIS-CLAUDE-SKILLS",
+    url="https://github.com/SuminPillai/indian-stock-market-ai",
     packages=find_packages(exclude=["tests*"]),
     python_requires=">=3.10",
     install_requires=[

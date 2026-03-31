@@ -32,8 +32,8 @@ This repository contains modular skills with a shared core that allow you to ana
 
 ### Step 1: Clone the repository
 ```bash
-git clone https://github.com/SuminPillai/NSE-STOCK-ANALYSIS-CLAUDE-SKILLS.git
-cd NSE-STOCK-ANALYSIS-CLAUDE-SKILLS
+git clone https://github.com/SuminPillai/indian-stock-market-ai.git
+cd indian-stock-market-ai
 ```
 
 ### Step 2: Register skills with Claude Code
